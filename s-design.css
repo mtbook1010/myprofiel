@@ -1,0 +1,249 @@
+html{
+       background-image: url("https://fizzee.jp/s-design/images/background1.JPEG"),
+						 url("https://fizzee.jp/s-design/images/background2.JPEG");
+						
+
+       background-size: 100%,
+						100%;
+
+       background-repeat: no-repeat,
+						  repeat-y;
+	
+       background-potisiom: center top,
+							center;
+	   
+
+	   font-family: 'Comfortaa', cursive; /*Google Fonts*/
+}
+
+
+.cts{
+    display: block;
+    text-align: center;
+    margin: 40% auto;
+    height: 430px;
+    width: 70%;
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    transform: translateY(20%) translateX(0%);
+    margin-bottom: 3em;
+    -webkit-appearance: none;
+}
+
+@media screen and (max-width: 450px) {
+
+    .cts{
+        display: block;
+        text-align: center;
+        margin:  20% auto;
+        height: 450px;
+        width: 85%;
+        background: #FFF;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+        -webkit-appearance: none;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 800px) {
+
+	.cts{
+        display: block;
+        position: 
+        text-align: center;
+        margin:  40% auto;
+        margin-bottom: -5em;
+        height: 440px;
+        width: 85%;
+        background: #FFF;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+        -webkit-appearance: none;
+    }
+
+}
+
+#box1{
+    display: inline-block;
+	position: relative;
+    padding: 2px;
+    margin-top: 2em; 
+    width: 60px;
+    border: solid 2px #FDDB18;
+    border-radius: 15px;
+}
+
+.fiz{ 
+	text-decoration: none;
+	color: #FDDB18;
+}
+.ppp{
+    display: block;
+    position: relative;
+}
+
+.pp{
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    width: 90px;
+	border-radius: 50%; 
+}
+
+.name{
+    margin: 1em auto;
+    margin-left: 2px; 
+}
+
+.place{
+    margin-top: -1.5em;
+    text-align: center;
+    font-size: 10px;
+    color: #888C94;
+}
+
+.sns{
+    display: inline-block;
+    margin: 1px 7px 7px;
+    font-size: 18px;
+}
+
+.twitter{
+	color: #08A0E9;
+}
+
+.facebook{
+	color: #3B5998;
+}
+
+.github{
+	color: black;
+}
+
+.cts_sub{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: auto;
+    width: 60%;
+}
+
+@media screen and (max-width: 450px) {
+    
+    .cts_sub{    
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: -10px auto;
+    width: 70%;
+    }
+}
+
+.intro{
+	word-wrap: break-word;
+    font-size: 12px;
+}
+
+
+
+#cts3{
+    text-align: center;
+    margin-top: 8em;
+}
+
+.logos , .flatfish {
+    display: inline;
+    margin: 1px 25px 25px;
+}
+
+.logo{
+    border-radius: 15px;
+	width: 33%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+    }
+
+.ff{
+    border-radius: 15px;
+	width: 33%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+    }
+
+@media screen and (max-width: 450px) {
+    
+    #cts3{
+        display: block;
+        text-align: center;
+    }
+    
+    .logos{
+        margin: auto;
+    }
+    
+    .logo{
+    display: inline-block;
+    border-radius: 15px;
+	width: 85%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+    }
+
+    .ff{
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 2em; 
+	width: 85%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 800px) {
+    
+    #cts3{
+    text-align: center;
+    margin-top: 15em;
+}
+
+.logos , .flatfish {
+    display: inline;
+    margin: 1px 25px 25px;
+}
+
+.logo{
+    border-radius: 15px;
+	width: 33%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+    }
+
+.ff{
+    border-radius: 15px;
+	width: 33%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+    }
+    
+}
+
+.spacer{
+    display: block;
+    margin: 18em auto;
+}
+
+@media screen and (max-width: 450px) {
+    
+.spacer{
+    display: block;
+    margin: 5em auto;
+    
+    }
+}
+
+#mes{
+    display: inline-block;
+    margin-top: 1.5em;
+    font-size: 12px;
+    color: white;
+    border: solid #FF6F61;
+    background-color: #FF6F61;
+    width: 160px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);  
+}
+
+#mes_p{
+    display: inline-block;
+}
